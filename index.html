@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Network Wars has moved</title>
+<link rel="canonical" href="https://maxbittker.github.io/networkwars/">
+<script>
+  // Forward to the new site, preserving any sub-path, query, and hash.
+  // Old:  https://maxbittker.github.io/network-wars/<rest>
+  // New:  https://maxbittker.github.io/networkwars/<rest>
+  (function () {
+    var base = "https://maxbittker.github.io/networkwars/";
+    var rest = location.pathname.replace(/^\/network-wars\/?/, "");
+    location.replace(base + rest + location.search + location.hash);
+  })();
+</script>
+<meta http-equiv="refresh" content="0; url=https://maxbittker.github.io/networkwars/">
+<style>
+  body { font-family: system-ui, sans-serif; background: #0d0f14; color: #e6e6e6;
+         display: grid; place-items: center; height: 100vh; margin: 0; }
+  a { color: #6db3ff; }
+</style>
+</head>
+<body>
+<p>Network Wars has moved to
+   <a href="https://maxbittker.github.io/networkwars/">maxbittker.github.io/networkwars</a>.
+   Redirecting…</p>
+</body>
+</html>
